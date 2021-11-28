@@ -1,3 +1,9 @@
 body {
   background-color: rgb(14,14,14);
 }
+
+.box {
+  width: 397px;
+  height: 264px;
+  background-color: rgb(255,255,255);
+}
