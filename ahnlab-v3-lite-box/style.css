@@ -1,9 +1,13 @@
 body {
   background-color: rgb(14,14,14);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-  width: 397px;
-  height: 264px;
+  width: 396px;
+  height: 262px;
   background-color: rgb(255,255,255);
 }
