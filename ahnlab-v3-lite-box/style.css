@@ -11,3 +11,8 @@ body {
   height: 262px;
   background-color: rgb(255,255,255);
 }
+
+.box-title {
+  display: flex;
+  justify-content: space-between;
+}
