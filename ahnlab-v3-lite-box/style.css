@@ -1,3 +1,7 @@
+* {
+  box-sizing: boder-box;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -38,7 +42,7 @@ body {
   font-size: 45px;
 }
 
-.box-notice div.box-notice_message {
+.box-notice .box-notice_message {
   margin-top: 22px;
   font-weight: bold;
 }
@@ -57,4 +61,5 @@ button {
   width: 150px;
   height: 35px;
   border: 2px solid rgb(0,164,104);
-}
+  background-color: rgb(255,255,255);
+} 
