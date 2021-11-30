@@ -53,3 +53,8 @@ body {
   left: 120px;
 }
 
+button {
+  width: 150px;
+  height: 35px;
+  border: 2px solid rgb(0,164,104);
+}
