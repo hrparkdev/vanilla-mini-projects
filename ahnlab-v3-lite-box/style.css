@@ -23,7 +23,7 @@ body {
   font-size: 17px;
 }
 
-.box-title > i {
+.box-title i {
   opacity: 0.4;
 }
 
@@ -36,7 +36,7 @@ body {
   background-color: rgb(255,114,0);
 }
 
-.box-notice > i {
+.box-notice i {
   margin: 10px 17px;
   font-size: 45px;
 }
