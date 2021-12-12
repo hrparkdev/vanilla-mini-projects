@@ -12,7 +12,7 @@ body {
   padding: 30px;
 }
 
-.menu > ul {
+.menu ul {
   position: absolute;
   top: 20px;
   right: 20px;
