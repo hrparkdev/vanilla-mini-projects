@@ -9,7 +9,7 @@ body {
 
 .menu {
   position: relative;
-  padding: 30px;
+  padding: 40px;
 }
 
 .menu ul {
@@ -17,6 +17,8 @@ body {
   top: 20px;
   right: 20px;
   display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .menu li {
@@ -73,7 +75,6 @@ body {
 
 .current-country {
   background-color: rgb(23,23,23);
-  
 }
 
 .reference {
