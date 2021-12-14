@@ -80,3 +80,11 @@ body {
 .reference {
   background-color: rgb(23,23,23);
 }
+
+.reference__left-box {
+  float: left;
+}
+
+.reference__right-box {
+  float: right;
+}
