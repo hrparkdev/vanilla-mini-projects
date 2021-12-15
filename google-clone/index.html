@@ -8,7 +8,6 @@
   <title>Google Clone</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./style.css">
-  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +20,11 @@
         <a href="https://www.google.co.kr/imghp?hl=ko&ogbl">Images</a>
       </li>
       <li>
-        <i class="fas fa-bars"></i>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+          </path>
+        </svg>
       </li>
       <li>
         <img src="./images/profile-image.png" alt="profile image">
@@ -35,11 +38,18 @@
 
   <div class="center-box">
     <div class="center-box__input-wrapper">
-      <i class="fas fa-search"></i>
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+          clip-rule="evenodd"></path>
+      </svg>
       <input type="text">
-      <i class="fas fa-microphone"></i>
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z">
+        </path>
+      </svg>
     </div>
-
     <div class="center-box__message">
       <div class="center-box__message__left-box">
         <span>Google Search</span>
@@ -50,29 +60,34 @@
     </div>
   </div>
 
-  <div class="current-country">South Korea</div>
-
-  <div class="reference">
-    <a
-      href="https://ads.google.com/intl/ko_kr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
-      Advertising
-    </a>
-    <a href="https://www.google.com/intl/ko_kr/business/">
-      Business
-    </a>
-    <a href="https://www.google.com/search/howsearchworks/?fg=1">
-      How Search works
-    </a>
-    <a href="https://policies.google.com/privacy?hl=ko&fg=1">
-      Privacy
-    </a>
-    <a href="https://policies.google.com/terms?hl=ko&fg=1">
-      Terms
-    </a>
-    <span>
-      Settings
-    </span>
-  </div>
+  <footer>
+    <div class="current-country">South Korea</div>
+    <div class="reference">
+      <div class="reference__left-box">
+        <a
+          href="https://ads.google.com/intl/ko_kr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
+          Advertising
+        </a>
+        <a href="https://www.google.com/intl/ko_kr/business/">
+          Business
+        </a>
+        <a href="https://www.google.com/search/howsearchworks/?fg=1">
+          How Search works
+        </a>
+      </div>
+      <div class="reference__right-box">
+        <a href="https://policies.google.com/privacy?hl=ko&fg=1">
+          Privacy
+        </a>
+        <a href="https://policies.google.com/terms?hl=ko&fg=1">
+          Terms
+        </a>
+        <span>
+          Settings
+        </span>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
