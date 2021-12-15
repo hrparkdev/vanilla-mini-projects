@@ -21,11 +21,15 @@ body {
   justify-content: end;
 }
 
-.menu li {
-  margin-left: 20px;
+.menu ul li {
+  margin-left: 25px;
 }
 
-.menu li:last-child img {
+/* .menu ul li:nth-child(3) svg {
+  font-size: 10px;
+} */
+
+.menu ul li:last-child img {
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -73,18 +77,22 @@ body {
   border-radius: 5px;
 }
 
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .current-country {
+  padding: 20px;
   background-color: rgb(23,23,23);
 }
 
 .reference {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
   background-color: rgb(23,23,23);
-}
-
-.reference__left-box {
-  float: left;
-}
-
-.reference__right-box {
-  float: right;
 }
