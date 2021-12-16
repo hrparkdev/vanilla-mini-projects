@@ -85,7 +85,7 @@ footer {
 }
 
 .current-country {
-  padding: 20px;
+  padding: 20px 40px;
   background-color: rgb(23,23,23);
 }
 
@@ -93,6 +93,10 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 40px;
   background-color: rgb(23,23,23);
+}
+
+.reference__left-box {
+
 }
