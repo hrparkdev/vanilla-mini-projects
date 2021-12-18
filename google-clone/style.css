@@ -63,6 +63,10 @@ a {
   width: 25px;
 }
 
+.center-box__input-wrapper:first-child svg {
+  margin-left: 16px;
+}
+
 .center-box__input-wrapper input {
   width: 470px;
   background-color: rgb(32,33,36);
