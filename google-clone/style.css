@@ -67,6 +67,10 @@ a {
   margin-left: 16px;
 }
 
+.center-box__input-wrapper:nth-last-child(2) svg {
+  margin-right: 16px;
+}
+
 .center-box__input-wrapper input {
   width: 470px;
   background-color: rgb(32,33,36);
