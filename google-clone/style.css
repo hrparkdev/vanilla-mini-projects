@@ -59,6 +59,11 @@ a {
   border: 1px solid rgb(255,255,255);
 }
 
+.center-box__input-wrapper:hover,
+.center-box__input-wrapper:focus {
+  background-color: rgb(49, 49, 49);
+}
+
 .center-box__input-wrapper svg {
   width: 25px;
 }
@@ -73,7 +78,14 @@ a {
 
 .center-box__input-wrapper input {
   width: 470px;
+  border: none;
   background-color: rgb(32,33,36);
+}
+
+.center-box__input-wrapper input:hover,
+.center-box__input-wrapper input:focus {
+  border: none;
+  background-color: rgb(49, 49, 49);
 }
 
 .center-box__message {
