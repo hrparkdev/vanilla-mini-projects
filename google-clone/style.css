@@ -39,7 +39,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 50px 50px 20px;
 }
 
 .center-box {
@@ -84,7 +84,6 @@ a {
 
 .center-box__input-wrapper input:hover,
 .center-box__input-wrapper input:focus {
-  border: none;
   background-color: rgb(49, 49, 49);
 }
 
