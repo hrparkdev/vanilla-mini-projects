@@ -26,13 +26,18 @@ a {
 }
 
 .menu ul li {
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 .menu ul li:last-child img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
+}
+
+.menu ul li:nth-child(3) svg {
+  width: 30px;
+  height: 30px;
 }
 
 .logo {
