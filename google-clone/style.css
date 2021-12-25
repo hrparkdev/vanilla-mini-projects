@@ -87,8 +87,12 @@ a {
   background-color: rgb(32,33,36);
 }
 
-.center-box__input-wrapper input:hover,
+.center-box__input-wrapper input:hover {
+  background-color: rgb(49, 49, 49);
+}
+
 .center-box__input-wrapper input:focus {
+  outline:none;
   background-color: rgb(49, 49, 49);
 }
 
