@@ -16,12 +16,12 @@ span:hover {
   text-decoration: underline;
 }
 
-.menu {
+menu {
   position: relative;
   padding: 40px;
 }
 
-.menu ul {
+menu ul {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -30,17 +30,17 @@ span:hover {
   justify-content: end;
 }
 
-.menu ul li {
+menu ul li {
   margin-left: 20px;
 }
 
-.menu ul li:last-child img {
+menu ul li:last-child img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
 
-.menu ul li:nth-child(3) svg {
+menu ul li:nth-child(3) svg {
   width: 30px;
   height: 30px;
 }
@@ -124,6 +124,12 @@ footer {
   padding: 20px 40px;
   border-bottom: 1px solid rgba(255,255,255, .1);
   background-color: rgb(23,23,23);
+}
+
+.current-country span,
+.reference a,
+.reference span {
+  opacity: 0.5;
 }
 
 .reference {
