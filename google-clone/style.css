@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+a:hover,
+span:hover {
+  text-decoration: underline;
+}
+
 .menu {
   position: relative;
   padding: 40px;
@@ -64,8 +69,7 @@ a {
   border: 1px solid rgb(255,255,255);
 }
 
-.center-box__input-wrapper:hover,
-.center-box__input-wrapper:focus {
+.center-box__input-wrapper:hover {
   background-color: rgb(49, 49, 49);
 }
 
