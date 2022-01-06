@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 188, 190);
+}
+
+.whole-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+  height: 200px;
+}
+
+@keyframes dots {
+  50% {
+    transform: rotate(0.5turn);
+  }
+
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
+
+.dots-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  animation: dots 1s ease-in-out infinite;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
