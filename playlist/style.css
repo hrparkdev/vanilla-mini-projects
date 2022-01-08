@@ -103,3 +103,52 @@ body {
 .btn__left span {
   margin-left: 25px;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main li {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.main__left__img-box {
+  margin-right: 28px;
+  width: 135px;
+  height: 132px;
+  border: 5px solid rgb(25, 24, 30);
+  border-radius: 30px;
+}
+
+.main-first .main__left__img-box {
+  background-color: rgb(248, 90, 42);
+}
+
+.main-second .main__left__img-box {
+  background-color: rgb(255, 137, 187);
+}
+
+.main-third .main__left__img-box {
+  background-color: rgb(24, 71, 229);
+}
+
+.main-fourth .main__left__img-box {
+  background-color: rgb(0, 198, 173);
+}
+
+.main__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main__right span:first-child {
+  font-size: 50px;
+}
+
+.main__right span:last-child {
+  font-size: 30px;
+  font-weight: normal;
+}
