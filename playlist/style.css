@@ -14,3 +14,11 @@ body {
   font-weight: 900;
   font-family: 'Baloo Tamma 2', cursive;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  height: 74px;
+  font-size: 60px;
+}
