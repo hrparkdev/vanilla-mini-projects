@@ -62,3 +62,44 @@ body {
 .header__right span:last-child {
   font-size: 40px;
 }
+
+.btn {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between
+}
+
+.btn__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 425px;
+  height: 153px;
+  border: 5px solid rgb(25, 24, 30);
+  border-radius: 30px;
+  font-size: 50px;
+  box-shadow: 0 5px rgb(25, 24, 30);
+}
+
+.btn__center,
+.btn__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 154px;
+  height: 145px;
+  border: 5px solid rgb(25, 24, 30);
+  border-radius: 50%;
+  box-shadow: 0 5px rgb(25, 24, 30);
+}
+
+.btn__left i,
+.btn__center i,
+.btn__right i {
+  font-size: 70px;
+}
+
+.btn__left span {
+  margin-left: 25px;
+}
