@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 165px 70px 70px;
+  height: 100%;
+  width: 982px;
+  border: 10px solid rgb(9, 200, 176);
+  font-weight: 900;
+  font-family: 'Baloo Tamma 2', cursive;
+}
