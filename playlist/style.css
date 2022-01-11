@@ -15,24 +15,28 @@ body {
   font-family: 'Baloo Tamma 2', cursive;
 }
 
-.menu {
+header {
   display: flex;
   justify-content: space-between;
   width: 520px;
   height: 74px;
+}
+
+h1,
+header i {
   font-size: 60px;
 }
 
-.header {
+.main-song {
   margin-top: 125px;
   display: flex;
 }
 
-.header__left {
+.main-song__cover {
   margin-right: 40px;
 }
 
-.header__left__img-box {
+.main-song__cover__img-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,78 +47,74 @@ body {
   background-color: rgb(255, 189, 17);
 }
 
-.header__left__img-box i {
+.main-song__cover__img-box i {
   color: rgb(255, 255, 255);
   font-size: 100px;
 }
 
-.header__right {
+.main-song__information {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.header__right span:first-child {
+.main-song__title {
   line-height: 1.1;
   font-size: 90px;
 }
 
-.header__right span:last-child {
+.main-song__author {
   font-size: 40px;
 }
 
-.btn {
+.btns {
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between
 }
 
-.btn__left {
+.btns__btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 425px;
   height: 153px;
   border: 5px solid rgb(25, 24, 30);
+  box-shadow: 0 5px rgb(25, 24, 30);
+}
+
+.btns__btn-big {
+  width: 425px;
+  height: 153px;
   border-radius: 30px;
-  font-size: 50px;
-  box-shadow: 0 5px rgb(25, 24, 30);
 }
 
-.btn__center,
-.btn__right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 154px;
-  height: 145px;
-  border: 5px solid rgb(25, 24, 30);
-  border-radius: 50%;
-  box-shadow: 0 5px rgb(25, 24, 30);
-}
-
-.btn__left i,
-.btn__center i,
-.btn__right i {
+.btns__btn-big i,
+.btns__btn-small i {
   font-size: 70px;
 }
 
-.btn__left span {
+.btns__btn-big span {
   margin-left: 25px;
+  font-size: 50px;
 }
 
-.main {
+.btns__btn-small {
+  width: 154px;
+  border-radius: 50%;
+}
+
+.song-list {
   display: flex;
   flex-direction: column;
 }
 
-.main li {
+.song-list li {
   display: flex;
   margin-bottom: 120px;
 }
 
-.main__left__img-box {
+.song-list__cover {
   margin-right: 28px;
   width: 135px;
   height: 132px;
@@ -122,33 +122,33 @@ body {
   border-radius: 30px;
 }
 
-.main-first .main__left__img-box {
+.song-list .song-list__song:first-child .song-list__cover{
   background-color: rgb(248, 90, 42);
 }
 
-.main-second .main__left__img-box {
+.song-list .song-list__song:nth-child(2) .song-list__cover{
   background-color: rgb(255, 137, 187);
 }
 
-.main-third .main__left__img-box {
+.song-list .song-list__song:nth-child(3) .song-list__cover{
   background-color: rgb(24, 71, 229);
 }
 
-.main-fourth .main__left__img-box {
+.song-list .song-list__song:last-child .song-list__cover{
   background-color: rgb(0, 198, 173);
 }
 
-.main__right {
+.song-list__information {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.main__right span:first-child {
+.song-list__information h5 {
   font-size: 50px;
 }
 
-.main__right span:last-child {
+.song-list__information h6 {
   font-size: 30px;
   font-weight: normal;
 }
