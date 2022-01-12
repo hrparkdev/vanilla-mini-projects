@@ -92,3 +92,77 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.featured-book {
+  margin-top: 70px;
+  display: flex;
+}
+
+.featured-book__cover img {
+  width: 310px;
+  height: 470px;
+  border-radius: 20px;
+}
+
+.featured-book__information {
+  margin-left: 54px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-book__information h4:nth-child(2) {
+  margin-top: 30px;
+}
+
+.featured-book__information .stars {
+  margin-top: 35px;
+  font-size: 35px;
+}
+
+.featured-book__information__tags {
+  margin: 50px 0;
+  display: flex;
+}
+
+.featured-book__information__tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 204px;
+  height: 70px;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: rgb(247, 247, 247);
+}
+
+.featured-book__information__tags .featured-book__information__tag:first-child {
+  margin-right: 26px;
+}
+
+.featured-book__information__actions {
+  display: flex;
+}
+
+.featured-book__information__actions__bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  font-size: 35px;
+  background-color: rgb(255, 206, 51);
+}
+
+.featured-book__information__actions__now {
+  margin-left: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 293px;
+  height: 95px;
+  border-radius: 20px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 13, 13);
+}
