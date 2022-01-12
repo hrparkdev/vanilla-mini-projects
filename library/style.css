@@ -51,3 +51,37 @@ header {
 header i {
   font-size: 45px;
 }
+
+.search {
+  margin-left: 30px;
+  position: absolute;
+  top: 233px;
+}
+
+.search input {
+  width: 927px;
+  height: 144px;
+  border-radius: 80px;
+  border: none;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search input::placeholder {
+  position: absolute;
+  top: 47px;
+  left: 90px;
+  font-size: 47px;
+  opacity: .5;
+  font-size: 50px;
+}
+
+.search i {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 47px;
+}
