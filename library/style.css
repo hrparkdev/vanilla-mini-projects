@@ -85,3 +85,10 @@ header i {
   right: 50px;
   font-size: 47px;
 }
+
+main {
+  margin-left: 45px;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+}
