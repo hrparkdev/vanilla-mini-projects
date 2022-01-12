@@ -194,3 +194,36 @@ main {
   height: 314px;
   border-radius: 10px;
 }
+
+.popular-authors-whole {
+  margin-top: 56px;
+  margin-bottom: 88px;
+}
+
+.popular-authors {
+  margin-top: 68px;
+  display: flex;
+}
+
+.popular-authors__cover img {
+  width: 308px;
+  height: 380px;
+  border-radius: 20px;
+}
+
+.popular-authors__information {
+  margin-left: 70px;
+}
+
+.Popular-authors__information h3:first-child {
+  margin-top: 14px;
+}
+
+.popular-authors__information h3:nth-child(2) {
+  margin-top: 12px;
+}
+
+.popular-authors__information p {
+  margin-top: 50px;
+  line-height: 150%;
+}
