@@ -166,3 +166,31 @@ main {
   color: rgb(255, 255, 255);
   background-color: rgb(13, 13, 13);
 }
+
+.top-adventures-whole {
+  margin-top: 80px;
+}
+
+.top-adventures {
+  margin-top: 47px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.top-adventures__book {
+  margin-right: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-adventures__book .stars {
+  margin-top: 47px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.top-adventures__book__cover img {
+  width: 200px;
+  height: 314px;
+  border-radius: 10px;
+}
