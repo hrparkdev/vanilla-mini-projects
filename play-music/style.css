@@ -22,3 +22,12 @@ body {
   border-radius: 40px;
   background-color: rgb(255, 255, 255);
 }
+
+.whole-box__big-box {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 729px;
+}
