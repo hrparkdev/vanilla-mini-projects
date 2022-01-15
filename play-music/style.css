@@ -31,3 +31,14 @@ body {
   width: 330px;
   height: 729px;
 }
+
+header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+
+headeri {
+  font-size: 18px;
+}
