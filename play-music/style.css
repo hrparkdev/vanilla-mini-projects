@@ -9,6 +9,16 @@ body {
   padding: 63px 84px 68px 68px;
   width: 984px;
   height: 120vh;
-  font-family:'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: rgb(243, 243, 244);
+}
+
+.whole-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 364px;
+  height: 756px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
 }
