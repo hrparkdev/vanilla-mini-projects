@@ -102,3 +102,35 @@ header i {
   opacity: 0.3;
   font-weight: 700;
 }
+
+ul {
+  margin-top: 25px;
+}
+
+ul li {
+  padding: 16px 26px;
+  display: flex;
+  width: 330px;
+  height: 74px;
+}
+
+ul li:nth-child(2) {
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px 3px rgba(245, 242, 242, 0.788);
+}
+
+ul li:nth-child(2) img {
+  filter: brightness(80%);
+}
+
+ul li:nth-child(2) .album-cover {
+  position: relative;
+}
+
+ul li:nth-child(2) .album-cover i {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
