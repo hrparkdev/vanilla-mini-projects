@@ -159,3 +159,45 @@ ul li:nth-child(2) .album-cover i {
 .album-setting i {
   opacity: 0.3;
 }
+
+footer {
+  position: fixed;
+  bottom: 16px;
+  padding: 14px26px;
+  display: flex;
+  width: 330px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(34, 34, 34);
+}
+
+.footer--song-information {
+  margin-right: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer--song-informationspan:first-child {
+  color: rgb(146, 145, 145);
+  font-size: 12px;
+}
+
+.footer--song-information h3 {
+  color: rgb(248, 248, 248);
+}
+
+.footer--play-icons-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer--play-icons-box__icons {
+  color: rgb(248, 248, 248);
+}
+
+.footer--play-icons-box__icons i:nth-child(2) {
+  margin: 022px;
+  font-size: 20px;
+}
