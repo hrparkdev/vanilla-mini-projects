@@ -39,6 +39,66 @@ header {
   width: inherit;
 }
 
-headeri {
+header i {
   font-size: 18px;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist__artist-cover img {
+  margin-top: 22px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 0px 15px 8px rgba(252, 216, 223, 0.911);
+}
+
+.playlist h1 {
+  margin-top: 40px;
+}
+
+.playlist h4 {
+  margin-top: 16px;
+}
+
+.playlist__action {
+  margin-top: 40px;
+  display: flex;
+}
+
+.playlist__action__shuffle {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 44px;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 34, 34);
+}
+
+.playlist__action__popular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 44px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px rgba(245, 242, 242, 0.788);
+}
+
+.playlist__action__popular i {
+  margin-right: 10px;
+}
+
+.playlist__action__popular span {
+  opacity: 0.3;
+  font-weight: 700;
 }
