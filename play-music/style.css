@@ -134,3 +134,28 @@ ul li:nth-child(2) .album-cover i {
   font-size: 20px;
   color: rgb(255, 255, 255);
 }
+
+.album-cover img {
+  margin-right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+}
+
+.album-information {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.album-setting {
+  right: 20px;
+  display: flex;
+  align-items: center;
+  width: 8px;
+}
+
+.album-setting i {
+  opacity: 0.3;
+}
