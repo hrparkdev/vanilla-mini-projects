@@ -55,7 +55,7 @@ header i {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  box-shadow: 0px 15px 8px rgba(252, 216, 223, 0.911);
+  box-shadow: 0px 15px 8px rgba(168, 173, 236, 0.459);
 }
 
 .playlist h1 {
@@ -91,7 +91,7 @@ header i {
   height: 44px;
   border-radius: 40px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 1px 1px 5px rgba(245, 242, 242, 0.788);
+  box-shadow: 1px 1px 5px rgba(168, 173, 236, 0.459);
 }
 
 .playlist__action__popular i {
@@ -116,7 +116,7 @@ ul li {
 
 ul li:nth-child(2) {
   border-radius: 10px;
-  box-shadow: 1px 5px 5px 3px rgba(245, 242, 242, 0.788);
+  box-shadow: 1px 5px 5px 3px rgba(168, 173, 236, 0.459);
 }
 
 ul li:nth-child(2) img {
@@ -163,7 +163,7 @@ ul li:nth-child(2) .album-cover i {
 footer {
   position: fixed;
   bottom: 16px;
-  padding: 14px26px;
+  padding: 14px 26px;
   display: flex;
   width: 330px;
   height: 70px;
@@ -178,7 +178,7 @@ footer {
   justify-content: space-around;
 }
 
-.footer--song-informationspan:first-child {
+.footer--song-information span:first-child {
   color: rgb(146, 145, 145);
   font-size: 12px;
 }
@@ -198,7 +198,7 @@ footer {
 }
 
 .footer--play-icons-box__icons i:nth-child(2) {
-  margin: 022px;
+  margin: 0 22px;
   font-size: 20px;
 }
 
@@ -216,14 +216,14 @@ footer {
   align-items: center;
 }
 
-.current-song__album-coverimg {
+.current-song__album-cover img {
   width: 260px;
   height: 262px;
   border-radius: 20px;
-  box-shadow: 0px 15px 10px 5px rgba(157, 182, 174, 0.459);
+  box-shadow: 0px 5px 10px 5px rgba(125, 130, 206, 0.459);
 }
 
-.current-songsection:nth-child(2) {
+.current-song section:nth-child(2) {
   margin-top: 66px;
   display: flex;
   flex-direction: column;
@@ -231,11 +231,11 @@ footer {
   align-items: center;
 }
 
-.current-songsection:nth-child(2) h4 {
+.current-song section:nth-child(2) h4 {
   margin-top: 20px;
 }
 
-.current-songsection:nth-child(3) {
+.current-song section:nth-child(3) {
   margin-top: 36px;
 }
 
@@ -286,18 +286,18 @@ footer {
   height: 70px;
 }
 
-.current-song__iconsi:first-child,
-.current-song__iconsi:last-child {
+.current-song__icons i:first-child,
+.current-song__icons i:last-child {
   font-size: 20px;
   opacity: 0.1;
 }
 
-.current-song__iconsi:nth-child(2),
-.current-song__iconsi:nth-child(4) {
+.current-song__icons i:nth-child(2),
+.current-song__icons i:nth-child(4) {
   font-size: 26px;
 }
 
-.current-song__iconsi:nth-child(3) {
+.current-song__icons i:nth-child(3) {
   font-size: 70px;
 }
 
