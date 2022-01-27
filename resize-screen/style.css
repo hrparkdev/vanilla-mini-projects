@@ -1,0 +1,15 @@
+body {
+  color: rgb(255, 255, 255);
+}
+
+.big-screen {
+  background-color: rgb(201, 198, 63);
+}
+
+.medium-screen {
+  background-color: rgb(131, 59, 165);
+}
+
+.small-screen {
+  background-color: rgb(37, 93, 175);
+}
