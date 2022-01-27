@@ -59,7 +59,7 @@ menu ul li:nth-child(3) svg {
   padding: 10px;
 }
 
-.center-box__input-wrapper {
+.center-box__form {
   display: flex;
   justify-content: space-between;
   margin: 16px;
@@ -69,33 +69,33 @@ menu ul li:nth-child(3) svg {
   border: 1px solid rgb(255,255,255);
 }
 
-.center-box__input-wrapper:hover {
+.center-box__form:hover {
   background-color: rgb(49, 49, 49);
 }
 
-.center-box__input-wrapper svg {
+.center-box__form svg {
   width: 25px;
 }
 
-.center-box__input-wrapper:first-child svg {
+.center-box__form:first-child svg {
   margin-left: 16px;
 }
 
-.center-box__input-wrapper:nth-last-child(2) svg {
+.center-box__form:nth-last-child(2) svg {
   margin-right: 16px;
 }
 
-.center-box__input-wrapper input {
+.center-box__form input {
   width: 470px;
   border: none;
   background-color: rgb(32,33,36);
 }
 
-.center-box__input-wrapper input:hover {
+.center-box__form input:hover {
   background-color: rgb(49, 49, 49);
 }
 
-.center-box__input-wrapper input:focus {
+.center-box__form input:focus {
   outline:none;
   background-color: rgb(49, 49, 49);
 }
