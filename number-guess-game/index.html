@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guess Game</title>
+</head>
+
+<body>
+  <h1>Random Number Game</h1>
+  <form action="" method="get" id="number-form">
+    <div class="number-form__range">
+      <label class="large-label" for="range">
+        Generate a number between 0 and
+      </label>
+      <input type="number" name="range" id="range-input" required />
+    </div>
+    <div class="number-form__guess">
+      <label" for="guess">Guess the number:</label>
+        <input type="number" name="guess" id="guess-input" required />
+        <input type="submit" value="Play!" />
+    </div>
+  </form>
+  <div>
+    <span id="chose"></span>
+  </div>
+  <div>
+    <span id="result"></span>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
