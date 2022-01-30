@@ -1,0 +1,29 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.number-form__range {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.number-form__guess {
+  display: flex;
+}
+
+.number-form__guess input:last-child {
+  margin-left: 5px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.large-label {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#result {
+  font-weight: 700;
+}
