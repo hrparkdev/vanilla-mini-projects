@@ -1,0 +1,16 @@
+.today-information {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(124, 167, 99, 0.822);
+  border: 10px solid rgba(187, 206, 187, 0.788);
+  font-size:20px;
+  font-weight: 600;
+}
