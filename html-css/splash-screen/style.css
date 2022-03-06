@@ -1,0 +1,30 @@
+@keyframes hideSplashScreen {
+  form {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-duration: 3s;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(115, 110, 117, 0.657);
+}
