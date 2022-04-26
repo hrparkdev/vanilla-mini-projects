@@ -1,4 +1,4 @@
-const key = document.querySelector("#insert");
+const insert = document.querySelector("#insert");
 
 window.addEventListener("keydown", (event) => {
   const alphabet = event.key;
