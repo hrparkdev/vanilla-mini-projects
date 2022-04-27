@@ -1,8 +1,9 @@
 const insert = document.querySelector("#insert");
 
 window.addEventListener("keydown", (event) => {
-  const alphabet = event.key;
-  const upperCase = alphabet.toUpperCase();
-  const ascii = upperCase.charCodeAt(0);
-
+  insert.innerHTML = `
+    <div class="key">
+      ${event.key === " " ? "Space" : event.key}
+      <small>event.key</small>
+  `
 });
